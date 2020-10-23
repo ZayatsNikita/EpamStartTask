@@ -13,7 +13,7 @@ namespace EpamStartTask
             StreamReader streamReader = null;
             try
             {
-                streamReader = new StreamReader(@"D:\EPAM\EpamStartTask\CoordinateFile.txt");
+                streamReader = new StreamReader("CoordinateFile.txt");
             }
             catch (Exception ex)
             {
